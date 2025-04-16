@@ -1,0 +1,32 @@
+# Arquivos e pastas temporárias
+*.tmp
+*.bak
+*.log
+
+# Pastas de build/exportação automáticas
+bin/
+obj/
+out/
+dist/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configurações locais do VS Code
+.vscode/
+
+# Node.js (se usar scripts em Node futuramente)
+node_modules/
+
+# Power Platform CLI arquivos temporários
+*.cdsproj.user
+.env
+.pac/
+
+# Backups ou arquivos de exportação
+*.zip
+*.tar.gz
+export*/ 
+backup*/ 
